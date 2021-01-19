@@ -1,0 +1,50 @@
+{
+
+// Visibility
+    // Editor
+    "editor.cursorBlinking": "expand",
+    "editor.minimap.enabled": false,
+    // Font Settings
+    "editor.fontSize": 16,
+    "editor.fontLigatures": true,
+    "editor.fontFamily": "'Cascadia Code PL'",
+    // Workbench
+    "workbench.editor.showTabs": false,
+    "workbench.activityBar.visible": false,
+    "workbench.colorTheme": "Cobalt2",
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.statusBar.visible": false,
+    // Window
+    "window.menuBarVisibility": "toggle",
+    "window.zoomLevel": 1,
+    // Breadcrum
+    "breadcrumbs.enabled": false,
+    "breadcrumbs.filePath": "off",
+
+// Some Environment Settings
+"workbench.startupEditor": "none",
+"files.autoSave": "onFocusChange",
+"keyboard.dispatch": "keyCode",
+"files.maxMemoryForLargeFilesMB": 6144,
+"diffEditor.ignoreTrimWhitespace": false,
+
+// Plugins Settings
+    // Vim
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {"after":[";"],"before":["Ctrl","Shift","p"]}
+    ],
+    // Emmet Plugin
+    "emmet.includeLanguages": {
+        "php": "html"
+    },
+    "emmet.triggerExpansionOnTab": true,
+    "emmet.showSuggestionsAsSnippets": true,
+    "emmet.preferences": {
+    },
+    // NeoVim
+    "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "java.configuration.checkProjectSettingsExclusions": false,
+    "tabnine.experimentalAutoImports": true,
+}
